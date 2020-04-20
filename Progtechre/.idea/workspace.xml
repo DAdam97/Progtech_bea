@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1alPVpScAl1yGsJoA2oaTvGnHZH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CharacterTest.testCharacterStat">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Progtechre" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterTest.testCharacterStat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Progtechre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.CharacterTest" />
+      <option name="METHOD_NAME" value="testCharacterStat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CharacterTest.testCharacterStat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="" />
+      <created>1587307233340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587307233340</updated>
+      <workItem from="1587307236947" duration="41000" />
+      <workItem from="1587377926652" duration="8279000" />
+      <workItem from="1587389682039" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1587389153493">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1587389153493" />
+    <state x="1506" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587388359124">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1506" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587388359124" />
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1587307261091">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1587307261091" />
+    <state width="1523" height="282" key="GridCell.Tab.0.bottom" timestamp="1587389603997">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1523" height="282" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587389603997" />
+    <state width="1523" height="282" key="GridCell.Tab.0.center" timestamp="1587389603997">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1523" height="282" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1587389603997" />
+    <state width="1523" height="282" key="GridCell.Tab.0.left" timestamp="1587389603997">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1523" height="282" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1587389603997" />
+    <state width="1523" height="282" key="GridCell.Tab.0.right" timestamp="1587389603997">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1523" height="282" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587389603997" />
+    <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587381491100">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1040@0.0.2560.1040" timestamp="1587381491100" />
+    <state x="1419" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587381628383">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1419" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587381628383" />
+    <state x="444" y="140" key="new project wizard" timestamp="1587307275128">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="444" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587307275128" />
+    <state x="1311" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1587388303690">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1311" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1587388303690" />
+  </component>
+</project>
