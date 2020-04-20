@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.Equipment.Equipment;
+
 public class Stat {
     private int health;
     private int mana;
@@ -17,10 +19,13 @@ public class Stat {
         return defense;
     }
 
-    public void addStat(Stat stat){
-        this.health += stat.getHealth();
-        this.mana += stat.getMana();
-        this.defense += stat.getDefense();
+    public void addStat(Equipment... equipments){
+        for(Equipment e: equipments) {
+            Stat s = e.getStat();
+            this.health += s.getHealth();
+            this.mana += s.getMana();
+            this.defense += s.getDefense();
+        }
     }
 
     @Override
