@@ -1,4 +1,9 @@
 package com.company.Equipment;
 
-public class Boots {
+import com.company.Stat;
+
+public class Boots extends Equipment {
+    public Boots(Stat stat) {
+        super(stat);
+    }
 }
