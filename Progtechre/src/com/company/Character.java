@@ -20,12 +20,18 @@ public class Character {
     }
 
     public Character() {
+        this.position = new Position(0,0);
         this.stat = new Stat(100,0,
                 0,0,0);
     }
 
-    public Character(Helmet helmet, Chest chest, Gloves gloves, Pants pants, Boots boots) {
+    public Character(Position position){
         this();
+        this.position = position;
+    }
+
+    public Character(Position position, Helmet helmet, Chest chest, Gloves gloves, Pants pants, Boots boots) {
+        this(position);
 
         this.helmet = helmet;
         this.chest = chest;
