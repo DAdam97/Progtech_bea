@@ -30,12 +30,14 @@ public class Stat {
     private void setDexterity(int dexterity) { this.dexterity = dexterity; }
     private void setWisdom(int wisdom) { this.wisdom = wisdom; }
 
-    public static Stat getRandomStat(){
+    public static Stat generateRandomStat(int level){
         int[] rndStat = new int[6];
         Random rnd = new Random();
 
+        if (1 > level) { level = 1; }
+
         for (int i = 0; i < 5; i++)
-            rndStat[i] = rnd.nextInt(11);
+            rndStat[i] = rnd.nextInt(11) * level;
 
         return new Stat(rndStat[0], rndStat[1], rndStat[2],
                         rndStat[3], rndStat[4]);

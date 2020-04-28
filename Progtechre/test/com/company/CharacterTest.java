@@ -7,11 +7,11 @@ class CharacterTest {
 
     @Test
     public void testCharacterStat(){
-        Helmet h = new Helmet(Stat.getRandomStat());
-        Chest c = new Chest(Stat.getRandomStat());
-        Gloves g = new Gloves(Stat.getRandomStat());
-        Pants p = new Pants(Stat.getRandomStat());
-        Boots b = new Boots(Stat.getRandomStat());
+        Helmet h = new Helmet(Stat.generateRandomStat(1));
+        Chest c = new Chest(Stat.generateRandomStat(1));
+        Gloves g = new Gloves(Stat.generateRandomStat(1));
+        Pants p = new Pants(Stat.generateRandomStat(1));
+        Boots b = new Boots(Stat.generateRandomStat(1));
 
         Character ch = new Character(h, c, g, p, b);
 

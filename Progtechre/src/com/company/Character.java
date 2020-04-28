@@ -11,14 +11,22 @@ public class Character {
 
     private Stat stat;
 
+    private Position position;
+    public Position getPosition() { return position; }
+
     @Override
     public String toString() {
         return this.stat.toString();
     }
 
-    public Character(Helmet helmet, Chest chest, Gloves gloves, Pants pants, Boots boots) {
+    public Character() {
         this.stat = new Stat(100,0,
                 0,0,0);
+    }
+
+    public Character(Helmet helmet, Chest chest, Gloves gloves, Pants pants, Boots boots) {
+        this();
+
         this.helmet = helmet;
         this.chest = chest;
         this.gloves = gloves;

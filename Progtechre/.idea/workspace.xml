@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseDefense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseDexterity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseStrength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseWisdom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/Modifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/company/Equipment/Modifiers/ModifierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ICharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/PositionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Progtechre.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Progtechre.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Equipment/Modifiers/IncreaseHealth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Equipment/Modifiers/IncreaseHealth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Stat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Stat.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Progtechre/com/company/CharacterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Progtechre/com/company/CharacterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Progtechre/com/company/Equipment/Modifiers/ModifierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Progtechre/com/company/Equipment/Modifiers/ModifierTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Boots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Equipment/Boots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Gloves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Equipment/Gloves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Equipment/Pants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/Equipment/Modifiers/ModifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/Equipment/Modifiers/ModifierTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +42,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -69,15 +68,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.company.Equipment.Modifiers" />
       <recent name="com.company" />
+      <recent name="com.company.Equipment.Modifiers" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -86,7 +87,7 @@
       <recent name="com.company.Equipment.Modifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ModifierTest.testIncreaseHealth">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Progtechre" />
@@ -129,11 +130,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PositionTest.testCalcAngle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Progtechre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.PositionTest" />
+      <option name="METHOD_NAME" value="testCalcAngle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PositionTest.testCalcAngle" />
         <item itemvalue="JUnit.ModifierTest.testIncreaseHealth" />
         <item itemvalue="JUnit.CharacterTest.testCharacterStat" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +172,12 @@
       <workItem from="1587391699769" duration="600000" />
       <workItem from="1587561782224" duration="5679000" />
       <workItem from="1587593255632" duration="3898000" />
-      <workItem from="1587726322801" duration="3733000" />
+      <workItem from="1587726322801" duration="12686000" />
+      <workItem from="1587758845867" duration="719000" />
+      <workItem from="1587759651389" duration="334000" />
+      <workItem from="1587985416833" duration="122000" />
+      <workItem from="1587986368679" duration="2884000" />
+      <workItem from="1588068864644" duration="11342000" />
     </task>
     <servers />
   </component>
@@ -175,14 +198,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="872" y="178" key="#Inspections" timestamp="1588072608476">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="178" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1588072608476" />
     <state x="1350" y="182" key="#Updates" timestamp="1587391590428">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1350" y="182" key="#Updates/0.0.2560.1040@0.0.2560.1040" timestamp="1587391590428" />
-    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1587730822698">
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1588070999421">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1587730822698" />
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588070999421" />
     <state x="1438" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587391596823">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -195,22 +222,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1587307261091" />
-    <state width="2519" height="130" key="GridCell.Tab.0.bottom" timestamp="1587729510346">
+    <state width="2519" height="276" key="GridCell.Tab.0.bottom" timestamp="1588076610771">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="130" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587729510346" />
-    <state width="2519" height="130" key="GridCell.Tab.0.center" timestamp="1587729510346">
+    <state width="2519" height="276" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588076610771" />
+    <state width="2519" height="276" key="GridCell.Tab.0.center" timestamp="1588076610771">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="130" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1587729510346" />
-    <state width="2519" height="130" key="GridCell.Tab.0.left" timestamp="1587729510346">
+    <state width="2519" height="276" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588076610771" />
+    <state width="2519" height="276" key="GridCell.Tab.0.left" timestamp="1588076610771">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="130" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1587729510346" />
-    <state width="2519" height="130" key="GridCell.Tab.0.right" timestamp="1587729510346">
+    <state width="2519" height="276" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588076610771" />
+    <state width="2519" height="276" key="GridCell.Tab.0.right" timestamp="1588076610771">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="130" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587729510346" />
+    <state width="2519" height="276" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588076610771" />
     <state width="1559" height="348" key="GridCell.Tab.1.bottom" timestamp="1587391613627">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -227,22 +254,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1559" height="348" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1587391613627" />
-    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587593255904">
+    <state x="811" y="162" key="SettingsEditor" timestamp="1587759278211">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587593255904" />
-    <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587381491100">
+    <state x="811" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1587759278211" />
+    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588068864654">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1040@0.0.2560.1040" timestamp="1587381491100" />
-    <state x="1419" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587595672207">
+    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588068864654" />
+    <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587737547658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1419" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587595672207" />
-    <state x="444" y="140" key="new project wizard" timestamp="1587307275128">
+    <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1040@0.0.2560.1040" timestamp="1587737547658" />
+    <state x="1419" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588080828792">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="444" y="140" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587307275128" />
+    <state x="1419" y="226" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588080828792" />
+    <state x="631" y="243" key="new project wizard" timestamp="1587759732739">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="631" y="243" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587759732739" />
     <state x="1386" y="244" key="run.anything.popup" timestamp="1587596833250">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

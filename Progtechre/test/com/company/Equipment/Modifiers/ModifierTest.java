@@ -1,21 +1,36 @@
 package com.company.Equipment.Modifiers;
 
+import com.company.*;
 import com.company.Equipment.*;
-import com.company.Stat;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class ModifierTest {
+import static org.junit.Assert.*;
+
+public class ModifierTest {
 
     @Test
     public void testIncreaseHealth(){
-        Stat s = new Stat(50,100,25,5,5);
+        int hpBefore = 100;
+        Stat s = new Stat(hpBefore,100,25,5,5);
         Equipment c = new Chest(s);
         System.out.println(c.getStat());
 
-        Equipment c2 = new IncreaseHealth(c, 100);
-        System.out.println(c2.getStat());
+        int counter = 7;
+        int level = 2;
+        int minVal = 10;
+        int maxVal = 20;
+        int minHp = hpBefore + (minVal * level * counter);
+        int maxHp = hpBefore + (maxVal * level * counter);
 
-        Chest C = (Chest) c2;
+        for (int i = 0; i < counter; i++)
+            c = new IncreaseHealth(c, level);
+
+        int hpAfter = c.getStat().getHealth();
+
+        System.out.println(c.getStat());
+        System.out.println("MinHP: " + minHp + "\nMaxHp: " + maxHp);
+
+        assertEquals(true, minHp <= hpAfter && hpAfter <= maxHp);
     }
 
 }
