@@ -36,7 +36,10 @@ public class Position {
 
         double angle = 0d;
 
+
+
         if (vecX >= 0 && vecY >= 0){              /* koordinata rendszer 1. negyede */
+<<<<<<< Updated upstream
             try { angle = Math.toDegrees(Math.atan(vecY / vecX)); }
             catch (ArithmeticException e) { angle = 90d; }
         }
@@ -49,6 +52,20 @@ public class Position {
         }
         else {                                  /* 4. negyede */
             angle = Math.toDegrees(Math.atan(vecY / vecX)) + 360d;
+=======
+            try { angle = Math.toDegrees(Math.atan2(vecY, vecX)); }
+            catch (ArithmeticException e) { angle = 90d; }
+        }
+        else if (vecX <= 0 && vecY >= 0){         /* 2. negyede */
+            angle = Math.toDegrees(Math.atan2(vecY, vecX));
+        }
+        else if (vecX <= 0 && vecY <= 0){         /* 3. negyede */
+            try { angle = Math.toDegrees(Math.atan2(vecY, vecX)) + 360d; }
+            catch (ArithmeticException e) { angle = 270d; }
+        }
+        else {                                  /* 4. negyede */
+            angle = Math.toDegrees(Math.atan2(vecY, vecX)) + 360d;
+>>>>>>> Stashed changes
         }
 
         return angle;

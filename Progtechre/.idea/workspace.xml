@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/src/com/company/Direction.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/company/ICharacter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/com/company/Position.java" afterDir="false" />
@@ -19,6 +20,9 @@
       <change beforePath="$PROJECT_DIR$/src/com/company/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CharacterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/Equipment/Modifiers/ModifierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/Equipment/Modifiers/ModifierTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/com/company/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Position.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +181,11 @@
       <workItem from="1587759651389" duration="334000" />
       <workItem from="1587985416833" duration="122000" />
       <workItem from="1587986368679" duration="2884000" />
+<<<<<<< Updated upstream
       <workItem from="1588068864644" duration="11342000" />
+=======
+      <workItem from="1588068864644" duration="19954000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
@@ -222,6 +230,7 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1587307261091" />
+<<<<<<< Updated upstream
     <state width="2519" height="276" key="GridCell.Tab.0.bottom" timestamp="1588076610771">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -239,6 +248,25 @@
     </state>
     <state width="2519" height="276" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588076610771" />
     <state width="1559" height="348" key="GridCell.Tab.1.bottom" timestamp="1587391613627">
+=======
+    <state width="2519" height="274" key="GridCell.Tab.0.bottom" timestamp="1588089594562">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2519" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588089594562" />
+    <state width="2519" height="274" key="GridCell.Tab.0.center" timestamp="1588089594561">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2519" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588089594561" />
+    <state width="2519" height="274" key="GridCell.Tab.0.left" timestamp="1588089594561">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2519" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588089594561" />
+    <state width="2519" height="274" key="GridCell.Tab.0.right" timestamp="1588089594562">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2519" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588089594562" />
+    <state width="1236" height="243" key="GridCell.Tab.1.bottom" timestamp="1588088287031">
+>>>>>>> Stashed changes
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1559" height="348" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1587391613627" />
