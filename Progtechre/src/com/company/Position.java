@@ -15,20 +15,18 @@ public class Position {
 
     public void faceTo(Character character){
         double angle = calcAngle(this, character.getPosition());
-        System.out.println(angle);
 
-        if (337.5d < angle || angle <= 22.5 ) { this.facing = Direction.EAST; }
-        else {
-            double tempAngle = 45.0d;
-            double offsetAngle = 22.5d;
-            int numOfDirs = 8;
+        if (337.5d > angle || angle <= 22.5 ) { this.facing = Direction.EAST; }
 
-            for (int i = 1; i < numOfDirs; i++) {
-                if (tempAngle - offsetAngle < angle && angle <= tempAngle + offsetAngle )
-                    facing = Direction.valueOf(i);
+        double tempAngle = 45.0d;
+        double offsetAngle = 22.5d;
+        int numOfDirs = 8;
 
-                tempAngle += 45.0d;
-            }
+        for (int i = 1; i < numOfDirs; i++){
+            if (tempAngle - offsetAngle < angle && tempAngle + offsetAngle <= angle )
+                facing = Direction.valueOf(i);
+
+            tempAngle += 45.0d;
         }
     }
 
@@ -37,21 +35,20 @@ public class Position {
         int vecY = to.y - from.y;
 
         double angle = 0d;
-        double scalarToDegree = 57.2957795;
 
         if (vecX >= 0 && vecY >= 0){              /* koordinata rendszer 1. negyede */
-            try { angle = Math.atan2(vecY, vecX) * scalarToDegree ; }
+            try { angle = Math.toDegrees(Math.atan(vecY / vecX)); }
             catch (ArithmeticException e) { angle = 90d; }
         }
         else if (vecX <= 0 && vecY >= 0){         /* 2. negyede */
-            angle = Math.atan2(vecY, vecX) * scalarToDegree;
+            angle = Math.toDegrees(Math.atan(vecY / vecX)) + 180d;
         }
         else if (vecX <= 0 && vecY <= 0){         /* 3. negyede */
-            try { angle = Math.atan2(vecY, vecX) * scalarToDegree + 360d; }
+            try { angle = Math.toDegrees(Math.atan(vecY / vecX)) + 180d; }
             catch (ArithmeticException e) { angle = 270d; }
         }
         else {                                  /* 4. negyede */
-            angle = Math.atan2(vecY, vecX) * scalarToDegree + 360d;
+            angle = Math.toDegrees(Math.atan(vecY / vecX)) + 360d;
         }
 
         return angle;
@@ -105,7 +102,7 @@ public class Position {
     }
 
     public Position() {
-        this.facing = Direction.NORTH;
+        this.facing = Direction.EAST;
         this.x = 0;
         this.y = 0;
     }
