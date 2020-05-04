@@ -3,6 +3,8 @@ package com.company;
 import com.company.Item.Equipment.*;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.Assert.assertEquals;
+
 class CharacterTest {
 
     @Test
@@ -16,7 +18,19 @@ class CharacterTest {
 
         Character ch = new Character(pos, h, c, g, p, b);
 
-        System.out.println(ch.toString());
+        System.out.println( ch.getStat() );
+        System.out.println( ch.getPosition().toString() );
+    }
+
+    @Test
+    public void testWeaponRange(){
+        Character c0 = new Character();
+        Character c1 = new Character(new Position(3,3));
+
+        assertEquals(false, c0.attack(c1));
+
+        c1.getPosition().moveForwardInDirection(Direction.SOUTHWEST, 1);
+        assertEquals(true, c0.attack(c1));
     }
 
 }

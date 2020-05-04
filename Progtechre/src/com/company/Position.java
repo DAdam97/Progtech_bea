@@ -109,6 +109,22 @@ public class Position {
         this.y += ySteps;
     }
 
+    public int getDistance(IMoveable from){
+        int disX = x - from.getPosition().getX();
+        int disY = y - from.getPosition().getY();
+
+        return (int)Math.sqrt((disX * disX) + (disY * disY));
+    }
+
+    @Override
+    public String toString() {
+        return "Position{" +
+                "x=" + x +
+                ", y=" + y +
+                ", facing=" + facing +
+                '}';
+    }
+
     public Position() {
         this.facing = Direction.NORTH;
         this.x = 0;

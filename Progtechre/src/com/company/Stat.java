@@ -19,14 +19,8 @@ public class Stat {
     public int getDexterity() { return dexterity; }
     public int getWisdom() { return wisdom; }
 
-    private void setHealth(int health) {
-        if(health > 0)
-            this.health = health;
-    }
-    private void setDefense(int defense) { this.defense = defense; }
-    private void setStrength(int strength) { this.strength = strength; }
-    private void setDexterity(int dexterity) { this.dexterity = dexterity; }
-    private void setWisdom(int wisdom) { this.wisdom = wisdom; }
+   public void decreaseHealth(int amount) { this.health -= amount; }
+   public void increaseHealth(int amount) { this.health += amount; }
 
     public static Stat generateRandomStat(int level){
         int[] rndStat = new int[6];
@@ -60,6 +54,13 @@ public class Stat {
                 ", dexterity: " + dexterity +
                 ", wisdom: " + wisdom +
                 '}';
+    }
+    public Stat(){
+        this.health = 0;
+        this.defense = 0;
+        this.strength = 0;
+        this.dexterity = 0;
+        this.wisdom = 0;
     }
 
     public Stat(int health, int defense, int strength, int dexterity, int wisdom) {

@@ -2,7 +2,13 @@ package com.company.Item.Weapon;
 
 public class Bow extends Weapon {
 
+    @Override
+    public int getDamageModifier() {
+        return getWeaponStat().getDexterity();
+    }
+
     public Bow(int level) {
-        super((int)(Weapon.getRandomDamage(15, 20) * 0.2 * level), 120, 0.15f);
+        super(Weapon.getRandomDamage(15, 20) + (int)(0.60f * level),
+                120, 0.15f,1.1f, level);
     }
 }

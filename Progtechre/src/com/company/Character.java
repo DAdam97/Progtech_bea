@@ -2,48 +2,58 @@ package com.company;
 
 
 import com.company.Item.Equipment.*;
+import com.company.Item.Weapon.BareHand;
+import com.company.Item.Weapon.Weapon;
 
-public class Character implements ICharacter, ILootable {
+public class Character implements IMoveable {
     private Helmet helmet;
     private Chest chest;
     private Gloves gloves;
     private Pants pants;
     private Boots boots;
 
-    private Stat stat;
+    private Weapon weapon;
 
+    private Stat stat;
     private Position position;
 
-    public Position getPosition() { return position; }
+    private boolean isAlive;
+
+    public Stat getStat() { return stat; }
 
     @Override
-    public boolean attack(ICharacter target) {
+    public Position getPosition() { return this.position; }
+
+    public void damage(int applyDamage){
+        stat.decreaseHealth(applyDamage);
+
+        if (0 > stat.getHealth()) {
+            stat.increaseHealth(stat.getHealth());
+            isAlive = false;
+        }
+    }
+
+    public boolean attack(Character enemy){
+        System.out.println("W:" + weapon.getWeaponRange() + "  D: " + position.getDistance(enemy) );
+
+        if (weapon.getWeaponRange() >= position.getDistance(enemy)){
+                weapon.attack(enemy);
+                return true;
+        }
         return false;
     }
 
-    @Override
-    public void moveTo(Position newPosition) {
-
+    public void equipWeapon(Weapon weapon){
+        this.weapon = weapon;
+        weapon.setWeaponStat( this.stat );
     }
 
-    @Override
-    public boolean loot(ILootable lootable) {
-        return false;
-    }
-
-    @Override
-    public boolean getLoot() {
-        return false;
-    }
-
-    @Override
-    public String toString() {
-        return this.stat.toString();
-    }
 
     public Character() {
+        this.weapon = new BareHand();
+        this.isAlive = true;
         this.position = new Position(0,0);
-        this.stat = new Stat(100,0,
+        this.stat = new Stat(100,1,
                 0,0,0);
     }
 
