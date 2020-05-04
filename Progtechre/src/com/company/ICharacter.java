@@ -1,6 +1,7 @@
 package com.company;
 
 public interface ICharacter {
-    boolean attack(ICharacter tartget);
-    void moveTo();
+    boolean attack(ICharacter target);
+    void moveTo(Position newPosition);
+    boolean loot(ILootable lootable);
 }

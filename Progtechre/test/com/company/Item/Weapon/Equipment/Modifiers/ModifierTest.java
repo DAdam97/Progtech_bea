@@ -1,7 +1,8 @@
-package com.company.Equipment.Modifiers;
+package com.company.Item.Weapon.Equipment.Modifiers;
 
 import com.company.*;
-import com.company.Equipment.*;
+import com.company.Item.Equipment.*;
+import com.company.Item.Equipment.Modifiers.IncreaseHealth;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

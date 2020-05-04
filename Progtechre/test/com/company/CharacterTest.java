@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.Equipment.*;
+import com.company.Item.Equipment.*;
 import org.junit.jupiter.api.Test;
 
 class CharacterTest {

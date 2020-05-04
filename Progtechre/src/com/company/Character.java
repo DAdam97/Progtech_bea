@@ -1,8 +1,9 @@
 package com.company;
 
-import com.company.Equipment.*;
 
-public class Character {
+import com.company.Item.Equipment.*;
+
+public class Character implements ICharacter, ILootable {
     private Helmet helmet;
     private Chest chest;
     private Gloves gloves;
@@ -12,7 +13,28 @@ public class Character {
     private Stat stat;
 
     private Position position;
+
     public Position getPosition() { return position; }
+
+    @Override
+    public boolean attack(ICharacter target) {
+        return false;
+    }
+
+    @Override
+    public void moveTo(Position newPosition) {
+
+    }
+
+    @Override
+    public boolean loot(ILootable lootable) {
+        return false;
+    }
+
+    @Override
+    public boolean getLoot() {
+        return false;
+    }
 
     @Override
     public String toString() {

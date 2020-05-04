@@ -8,6 +8,9 @@ public class Position {
 
     public int getX() { return x; }
     public int getY() { return y; }
+    public int[] getCoordinate(){
+        return new int[]{ x, y };
+    }
 
     public Direction getFacing() { return this.facing; }
 
@@ -15,7 +18,6 @@ public class Position {
 
     public void faceTo(Character character){
         double angle = calcAngle(this, character.getPosition());
-        System.out.println(angle);
 
         if (337.5d < angle || angle <= 22.5 ) { this.facing = Direction.EAST; }
         else {
@@ -61,7 +63,7 @@ public class Position {
         this.y = newPosition.y;
     }
 
-    void moveForward(Direction direction, int steps){
+    void moveForwardInDirection(Direction direction, int steps){
         this.facing = direction;
         switch (direction){
             case NORTH:
@@ -98,7 +100,11 @@ public class Position {
         }
     }
 
-    private  void step(int xSteps, int ySteps){
+    void moveForward(int steps){
+        moveForwardInDirection(this.facing, steps);
+    }
+
+    private void step(int xSteps, int ySteps){
         this.x += xSteps;
         this.y += ySteps;
     }

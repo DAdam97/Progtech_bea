@@ -1,6 +1,5 @@
 package com.company;
 
-import com.company.Equipment.Equipment;
 
 public class Main {
 

@@ -1,10 +1,8 @@
 package com.company;
 import org.junit.Test;
 
-import javax.sound.midi.Soundbank;
-import java.security.spec.PSSParameterSpec;
+import java.util.Random;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 
@@ -93,7 +91,18 @@ public class PositionTest {
         c0.getPosition().faceTo(Direction.EAST);
         c0.getPosition().faceTo(c1);
         assertEquals(Direction.SOUTHEAST, c0.getPosition().getFacing());
+    }
 
-        System.out.println(c0.getPosition().getFacing());
+    public void testFaceToDir(){
+        Random rnd = new Random();
+        Character c = new Character(new Position(0,0, Direction.EAST));
+
+        int count = 100;
+
+        for (int i = 0; i < count; i++){
+            Direction dir = Direction.valueOf(rnd.nextInt(8));
+            c.getPosition().faceTo(dir);
+            assertEquals(dir, c.getPosition().getFacing());
+        }
     }
 }

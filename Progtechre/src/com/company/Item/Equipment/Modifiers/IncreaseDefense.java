@@ -1,6 +1,6 @@
-package com.company.Equipment.Modifiers;
+package com.company.Item.Equipment.Modifiers;
 
-import com.company.Equipment.Equipment;
+import com.company.Item.Equipment.Equipment;
 import com.company.Stat;
 
 public class IncreaseDefense extends Modifier {

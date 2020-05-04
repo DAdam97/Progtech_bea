@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="" />
+    <list default="true" id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Boots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Chest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Gloves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Helmet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/IncreaseDefense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/IncreaseDexterity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/IncreaseHealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/IncreaseStrength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/IncreaseWisdom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/Modifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Pants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Bow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/MagicStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Equipment/Boots.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Equipment/Boots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/ICharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/ICharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Progtechre/META-INF/Progtechre.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Progtechre/com/company/PositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Progtechre/com/company/PositionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Boots.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Chest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Equipment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Gloves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Helmet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseDefense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseDexterity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseHealth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseStrength.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/IncreaseWisdom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Modifiers/Modifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Equipment/Pants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ICharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ICharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Stat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Stat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/Equipment/Modifiers/ModifierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/PositionTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +71,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
-        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -100,12 +146,12 @@
       <module name="Progtechre" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Equipment.Modifiers.*" />
+          <option name="PATTERN" value="com.company.Item.Weapon.Equipment.Modifiers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company.Equipment.Modifiers" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Equipment.Modifiers.ModifierTest" />
+      <option name="PACKAGE_NAME" value="com.company.Item.Weapon.Equipment.Modifiers" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Item.Weapon.Equipment.Modifiers.ModifierTest" />
       <option name="METHOD_NAME" value="testIncreaseHealth" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -178,6 +224,15 @@
       <workItem from="1587986368679" duration="2884000" />
       <workItem from="1588068864644" duration="19790000" />
       <workItem from="1588091454849" duration="114000" />
+      <workItem from="1588091597546" duration="102000" />
+      <workItem from="1588172409925" duration="517000" />
+      <workItem from="1588172983533" duration="360000" />
+      <workItem from="1588173888377" duration="619000" />
+      <workItem from="1588204003662" duration="1569000" />
+      <workItem from="1588325672845" duration="6097000" />
+      <workItem from="1588584710247" duration="2430000" />
+      <workItem from="1588587199404" duration="13000" />
+      <workItem from="1588587325609" duration="3605000" />
     </task>
     <servers />
   </component>
@@ -210,38 +265,42 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="93" y="100" width="1094" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588086761426" />
-    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1588070999421">
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1588587536268">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588070999421" />
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588587536268" />
     <state x="1438" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587391596823">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1438" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587391596823" />
-    <state x="1506" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587729045570">
+    <state x="755" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588585657370">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1506" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587729045570" />
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1587307261091">
+    <state x="755" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588585657370" />
+    <state x="1506" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588328214947">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1587307261091" />
-    <state width="2519" height="274" key="GridCell.Tab.0.bottom" timestamp="1588091568151">
+    <state x="1506" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588328214947" />
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1588587210115">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588091568151" />
-    <state width="2519" height="274" key="GridCell.Tab.0.center" timestamp="1588091568151">
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588587210115" />
+    <state width="2519" height="244" key="GridCell.Tab.0.bottom" timestamp="1588332883671">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588091568151" />
-    <state width="2519" height="274" key="GridCell.Tab.0.left" timestamp="1588091568151">
+    <state width="2519" height="244" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588332883671" />
+    <state width="2519" height="244" key="GridCell.Tab.0.center" timestamp="1588332883671">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588091568151" />
-    <state width="2519" height="274" key="GridCell.Tab.0.right" timestamp="1588091568151">
+    <state width="2519" height="244" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588332883671" />
+    <state width="2519" height="244" key="GridCell.Tab.0.left" timestamp="1588332883671">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588091568151" />
+    <state width="2519" height="244" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588332883671" />
+    <state width="2519" height="244" key="GridCell.Tab.0.right" timestamp="1588332883671">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2519" height="244" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588332883671" />
     <state width="1236" height="243" key="GridCell.Tab.1.bottom" timestamp="1588088287031">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -262,10 +321,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="811" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1587759278211" />
-    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588091601600">
+    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588587325927">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588091601600" />
+    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588587325927" />
     <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587737547658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

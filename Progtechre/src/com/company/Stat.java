@@ -1,7 +1,5 @@
 package com.company;
 
-import com.company.Equipment.Equipment;
-
 import java.util.Random;
 
 public class Stat {
