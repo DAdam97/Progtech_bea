@@ -45,6 +45,16 @@ public class Stat {
         }
     }
 
+    public void removeStat(Stat... stats){
+        for(Stat s: stats) {
+            this.health -= s.getHealth();
+            this.defense -= s.getDefense();
+            this.strength -= s.getStrength();
+            this.dexterity -= s.getDexterity();
+            this.wisdom -= s.getWisdom();
+        }
+    }
+
     @Override
     public String toString() {
         return "{" +

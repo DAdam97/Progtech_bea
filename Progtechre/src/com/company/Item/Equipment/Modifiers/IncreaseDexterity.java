@@ -4,6 +4,7 @@ import com.company.Item.Equipment.Equipment;
 import com.company.Stat;
 
 public class IncreaseDexterity extends Modifier {
+
     @Override
     public Stat increaseStat(int level) {
         return new Stat(0,0,

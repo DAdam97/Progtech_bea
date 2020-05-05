@@ -3,6 +3,11 @@ package com.company.Item.Weapon;
 import com.company.Character;
 
 public class Sword extends Weapon {
+    @Override
+    public int getItemValue() {
+        int baseValue = 30;
+        return  baseValue * getWeaponLevel();
+    }
 
     @Override
     public int getDamageModifier() {

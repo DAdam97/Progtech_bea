@@ -1,11 +1,12 @@
 package com.company.Item.Weapon;
 
 import com.company.Character;
+import com.company.Item.Item;
 import com.company.Stat;
 
 import java.util.Random;
 
-public abstract class Weapon {
+public abstract class Weapon extends Item {
     public static Random rnd = new Random();
 
     private int weaponLevel;
@@ -52,7 +53,19 @@ public abstract class Weapon {
         return rnd.nextInt((max - min) + 1) + min;
     }
 
-    public Weapon(int weaponDamage, int weaponRange, float criticalChance,float criticalDamage, int weaponLevel) {
+    @Override
+    public String toString() {
+        return "Weapon{" +
+                "weaponLevel=" + weaponLevel +
+                ", weaponDamage=" + weaponDamage +
+                ", WeaponRange=" + WeaponRange +
+                ", criticalChance=" + criticalChance +
+                ", criticalDamage=" + criticalDamage +
+                ", weaponStat=" + weaponStat +
+                "}" ;
+    }
+
+    public Weapon(int weaponDamage, int weaponRange, float criticalChance, float criticalDamage, int weaponLevel) {
         this.weaponDamage = weaponDamage;
         this.WeaponRange = weaponRange;
         this.criticalChance = criticalChance;

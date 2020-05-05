@@ -1,6 +1,11 @@
 package com.company.Item.Weapon;
 
 public class Bow extends Weapon {
+    @Override
+    public int getItemValue() {
+        int baseValue = 45;
+        return  baseValue * getWeaponLevel();
+    }
 
     @Override
     public int getDamageModifier() {

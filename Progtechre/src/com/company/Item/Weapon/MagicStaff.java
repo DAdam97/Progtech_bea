@@ -1,6 +1,11 @@
 package com.company.Item.Weapon;
 
 public class MagicStaff extends Weapon {
+    @Override
+    public int getItemValue() {
+        int baseValue = 100;
+        return  baseValue * getWeaponLevel();
+    }
 
     @Override
     public int getDamageModifier() {

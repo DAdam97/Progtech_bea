@@ -93,6 +93,7 @@ public class PositionTest {
         assertEquals(Direction.SOUTHEAST, c0.getPosition().getFacing());
     }
 
+    @Test
     public void testFaceToDir(){
         Random rnd = new Random();
         Character c = new Character(new Position(0,0, Direction.EAST));
