@@ -94,7 +94,8 @@ class CharacterTest {
     @Test
     public void testWeaponStatAfterEquipmentChange() {
         Character dummy = new Character();
-        Weapon sword = new Sword(5, new NeutralEnchantment());
+        Weapon sword = new Sword(5, new NeutralEnchantment()
+        );
         dummy.equipWeapon(sword);
         assertEquals(dummy.getStat().toString(), sword.getWeaponStat().toString());
 

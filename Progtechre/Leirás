@@ -1,0 +1,23 @@
+Elképzelés:
+    A program egy kezdetleges rpg játék, ahol a karakterek tudnak mozogni a virtuális térben illetve meg támadni egymést.
+    A karakterek támadó ereje összefüggésben van a felserelősük tulajdonságával és fegyverük tipusával.
+    Egy karakter csak akkor tudja meg támadni a másikat, ha az a fegyvere hatókörén belül tartózkodik.
+
+Tervezési minták:
+    - Strategy: segitségével a karakatret tetszés szerint váltogathatja a felszerelését (sapka, mellvért, kesztyű, nadrág, cipő, fegyver)
+    - Decorator: egy meglévő páncéldarab tulajdonságainak fejlesztésére szolgál pl. cipőnk védelmi értékét megnöveli +10-el
+    - Bridge: fegyverek bájolásáért szolgál pl. a fegyverünk figyelmen kivül hadja az ellenfél páncélját
+    - Null Object: pl. karakter készitéskor a karakterünk fegyvere nem null lesz, hanem a saját puszta keze.
+
+Unit test:
+    - ha egy karakter felszerelésével együtt hozzuk, létre akkor annak tulajdonságai hozzáadódnak-e a karakterhez.
+    - csak a fegyver hatótávján belül tudjuk megtámadni ellenfelünket.
+    - ha túl messze van a karakter, hogy meg támadjuk akkor a meg felelő irányba nézve meg tudjuk-e közeliteni.
+    - ellenfelünk felé nézve a meg felelő irányba fordul.
+    - ha meg támadják egymást vesztenek az élet pontjaikból.
+    - meg tudunk-e ölni egy ellenfelet.
+    - felszerelés váltás után a fegyver a megfelelő tulajdonságokat veszi figyelembe.
+    - az elvarázsolt fegyver varázslata jól működik-e.
+    - felszerelés fejlesztésekor a megfelelő mennyiségben változnak-e annak tulajdonságai.
+
+
