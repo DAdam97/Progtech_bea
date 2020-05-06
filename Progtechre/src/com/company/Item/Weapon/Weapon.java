@@ -2,6 +2,7 @@ package com.company.Item.Weapon;
 
 import com.company.Character;
 import com.company.Item.Item;
+import com.company.Item.Weapon.Enchantment.Enchantment;
 import com.company.Stat;
 
 import java.util.Random;
@@ -15,20 +16,22 @@ public abstract class Weapon extends Item {
     private float criticalChance;
     private float criticalDamage;
     private Stat weaponStat = new Stat();
+    private Enchantment enchantment;
 
     public int getWeaponLevel() { return weaponLevel; }
-    public int getWeaponDamage() { return weaponDamage; }
-    public int getWeaponRange() { return WeaponRange; }
-    public float getCriticalChance() { return criticalChance; }
-    public float getCriticalDamage() { return criticalDamage; }
+
+    public int getWeaponDamage() { return weaponDamage + enchantment.getDmgEnchantment(); }
+    public int getWeaponRange() { return WeaponRange + enchantment.getRngEnchantment(); }
+    public float getCriticalChance() { return criticalChance + enchantment.getCritChanceEnchantment(); }
+    public float getCriticalDamage() { return criticalDamage + enchantment.getCritDamageEnchantment(); }
+
     public Stat getWeaponStat() { return weaponStat; }
     public float getDamageScalar() { return 0.15f; }
 
-
     public void attack(Character enemy){
-        int damage = (int) (this.getWeaponDamage() + (int)(getDamageModifier() * getDamageScalar())
+        int damage = (int) (this.getWeaponDamage() + (int)(getDamageModifierFromStat() * getDamageScalar())
                                                     /
-                                    enemy.getStat().getDefense());
+                (enemy.getStat().getDefense() * enchantment.getDefEnchantment() + 1));
 
         if(Weapon.rnd.nextFloat() < this.getCriticalChance()){
             damage += getWeaponDamage() * getCriticalDamage();
@@ -37,7 +40,7 @@ public abstract class Weapon extends Item {
         enemy.damage(damage);
     }
 
-    public abstract int getDamageModifier();
+    public abstract int getDamageModifierFromStat();
 
     public void setWeaponStat(Stat characterStat) {
         this.weaponStat = characterStat;
@@ -62,10 +65,11 @@ public abstract class Weapon extends Item {
                 ", criticalChance=" + criticalChance +
                 ", criticalDamage=" + criticalDamage +
                 ", weaponStat=" + weaponStat +
-                "}" ;
+                ", enchantment=" + enchantment +
+                '}';
     }
 
-    public Weapon(int weaponDamage, int weaponRange, float criticalChance, float criticalDamage, int weaponLevel) {
+    public Weapon(int weaponDamage, int weaponRange, float criticalChance, float criticalDamage, int weaponLevel, Enchantment enchantment) {
         this.weaponDamage = weaponDamage;
         this.WeaponRange = weaponRange;
         this.criticalChance = criticalChance;
@@ -73,5 +77,7 @@ public abstract class Weapon extends Item {
 
         if(1 > weaponLevel) { weaponLevel = 1; }
         this.weaponLevel = weaponLevel;
+
+        this.enchantment = enchantment;
     }
 }

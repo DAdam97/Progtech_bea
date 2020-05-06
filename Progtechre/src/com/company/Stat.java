@@ -44,7 +44,6 @@ public class Stat {
             this.wisdom += s.getWisdom();
         }
     }
-
     public void removeStat(Stat... stats){
         for(Stat s: stats) {
             this.health -= s.getHealth();

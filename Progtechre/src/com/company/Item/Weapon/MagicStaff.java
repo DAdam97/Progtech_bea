@@ -1,5 +1,7 @@
 package com.company.Item.Weapon;
 
+import com.company.Item.Weapon.Enchantment.Enchantment;
+
 public class MagicStaff extends Weapon {
     @Override
     public int getItemValue() {
@@ -8,12 +10,12 @@ public class MagicStaff extends Weapon {
     }
 
     @Override
-    public int getDamageModifier() {
+    public int getDamageModifierFromStat() {
         return getWeaponStat().getWisdom();
     }
 
-    public MagicStaff(int level) {
+    public MagicStaff(int level, Enchantment enchantment) {
         super(Weapon.getRandomDamage(17, 22)+ (int)(0.65f * level),
-                60, 0.15f, 1.1f, level);
+                60, 0.15f, 1.1f, level, enchantment);
     }
 }

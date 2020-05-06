@@ -4,8 +4,10 @@ import com.company.Item.Equipment.*;
 import com.company.Item.Equipment.Modifiers.IncreaseDefense;
 import com.company.Item.Weapon.BareHand;
 import com.company.Item.Weapon.Bow;
+import com.company.Item.Weapon.Enchantment.NeutralEnchantment;
 import com.company.Item.Weapon.Sword;
 import com.company.Item.Weapon.Weapon;
+import com.sun.jdi.BooleanType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -41,9 +43,10 @@ class CharacterTest {
     public void testWeaponEquip(){
         Character C = new Character();
         assertEquals(new BareHand().toString(), C.getWeapon().toString());
+        Weapon sword = new Sword(1, new NeutralEnchantment());
 
-        C.equipWeapon( new Sword(1));
-        assertNotEquals(new Sword(1), C.getWeapon());
+        C.equipWeapon(sword);
+        assertNotEquals(new Sword(1, new NeutralEnchantment()), C.getWeapon());
     }
 
     @Test
@@ -52,7 +55,7 @@ class CharacterTest {
         Character dummy2 = new Character();
         assertEquals(100, dummy2.getStat().getHealth());
 
-        dummy1.equipWeapon(new Sword(1));
+        dummy1.equipWeapon(new Sword(1, new NeutralEnchantment()));
         dummy1.attack(dummy2);
         assertEquals(true, 100 > dummy2.getStat().getHealth());
     }
@@ -63,7 +66,7 @@ class CharacterTest {
         Character dummy2 = new Character(new Position( 100, 0));
         assertEquals(true, dummy2.isAlive());
 
-        dummy1.equipWeapon(new Bow(2));
+        dummy1.equipWeapon(new Bow(2, new NeutralEnchantment()));
         for(int i = 0; i < 10; i++)
             dummy1.attack(dummy2);
 
@@ -89,23 +92,24 @@ class CharacterTest {
     }
 
     @Test
-    public void testWeaponStatAfterEquipmentChange(){
+    public void testWeaponStatAfterEquipmentChange() {
         Character dummy = new Character();
-        Weapon sword = new Sword(5);
-
+        Weapon sword = new Sword(5, new NeutralEnchantment());
         dummy.equipWeapon(sword);
-        System.out.println( dummy.getWeapon().getWeaponStat() );
+        assertEquals(dummy.getStat().toString(), sword.getWeaponStat().toString());
 
-        Equipment boots = new Boots(Stat.generateRandomStat(5));
+        System.out.println(dummy.getStat().toString() + "\n"+ sword.getWeaponStat().toString());
+
+        Equipment boots = new Boots(Stat.generateRandomStat(1));
         dummy.equip(boots);
-        System.out.println( dummy.getStat() );
-        System.out.println( dummy.getWeapon().getWeaponStat() );
+        assertEquals(dummy.getStat().toString(), sword.getWeaponStat().toString());
 
-        System.out.println();
+        System.out.println(dummy.getStat().toString() + "\n"+ sword.getWeaponStat().toString());
 
-        boots = new Boots(Stat.generateRandomStat(50));
-        dummy.equip(boots);
-        System.out.println( dummy.getStat() );
-        System.out.println( dummy.getWeapon().getWeaponStat() );
+        Boots newBoots = new Boots(Stat.generateRandomStat(100));
+        dummy.equip(newBoots);
+        assertEquals(dummy.getStat().toString(), sword.getWeaponStat().toString());
+
+        System.out.println(dummy.getStat().toString() + "\n"+ sword.getWeaponStat().toString());
     }
 }

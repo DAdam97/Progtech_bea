@@ -4,6 +4,7 @@ import com.company.Item.Equipment.Chest;
 import com.company.Item.Equipment.Equipment;
 import com.company.Item.Equipment.Modifiers.*;
 import com.company.Item.Weapon.Bow;
+import com.company.Item.Weapon.Enchantment.NeutralEnchantment;
 import com.company.Item.Weapon.Sword;
 import com.company.Item.Weapon.Weapon;
 import com.company.Stat;
@@ -15,8 +16,8 @@ public class ItemTest {
 
     @Test
     public void testItemID() {
-        Weapon sword = new Sword(1);
-        Weapon bow = new Bow(1);
+        Weapon sword = new Sword(1, new NeutralEnchantment());
+        Weapon bow = new Bow(1, new NeutralEnchantment());
         Equipment chest = new Chest(Stat.generateRandomStat(1));
 
         assertEquals("Item0", sword.getItemID());
