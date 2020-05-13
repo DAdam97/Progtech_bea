@@ -4,7 +4,7 @@ import com.company.Stat;
 
 public class Helmet extends Equipment {
     @Override
-    public EquipmentType getType() { return EquipmentType.HELMET; }
+    public EquipmentType getType() { return EquipmentType.Helmet; }
 
     @Override
     public int getItemValue() {

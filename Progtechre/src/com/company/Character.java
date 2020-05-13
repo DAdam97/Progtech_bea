@@ -37,29 +37,51 @@ public class Character implements IMoveable {
     // region functions
     public void equip(Equipment equipment){
         switch (equipment.getType()) {
-            case HELMET:
+            case Helmet:
                 stat.removeStat(this.helmet.getStat());
                 helmet = equipment;
                 break;
-            case CHEST:
+            case Chest:
                 stat.removeStat(this.chest.getStat());
                 chest = equipment;
                 break;
-            case GLOVES:
+            case Gloves:
                 stat.removeStat(this.gloves.getStat());
                 gloves = equipment;
             break;
-            case PANTS:
+            case Pants:
                 stat.removeStat(this.pants.getStat());
                 pants = equipment;
             break;
-            case BOOTS:
+            case Boots:
                 stat.removeStat(this.boots.getStat());
                 boots = equipment;
                 break;
         }
 
         stat.addStat(equipment.getStat());
+    }
+
+    public void equipAll(Equipment... equipments){
+        for (Equipment e : equipments){
+            equip(e);
+        }
+    }
+
+    public Equipment getEquipment(int slot){
+        Equipment e = this.boots;
+        switch (slot){
+            case 0: e = this.helmet;
+                break;
+            case 1: e = this.chest;
+                break;
+            case 2: e = this.gloves;
+                break;
+            case 3: e = this.pants;
+                break;
+        }
+
+        return e;
     }
 
     public void equipWeapon(Weapon weapon){
@@ -83,6 +105,32 @@ public class Character implements IMoveable {
         }
         return false;
     }
+
+    public void moveForward(int steps){
+        getPosition().moveForward(steps);
+    }
+
+    public void moveForwardInDirection(Direction dir, int steps){
+        getPosition().moveForwardInDirection(dir, steps);
+    }
+
+    public void faceToDirection(Direction dir){
+        getPosition().faceTo(dir);
+    }
+
+    public void faceToCharacter(Character character){
+        getPosition().faceTo(character);
+    }
+
+    public String displayEquipment(){
+        return "Weapon: " + this.getWeapon().getWeaponType() + "\n" +
+                this.getHelmet().toString() + "\n" +
+                this.getChest().toString() + "\n" +
+                this.getGloves().toString() + "\n" +
+                this.getPants().toString() + "\n" +
+                this.getBoots().toString();
+    }
+
     //endregion
 
     //region constructors

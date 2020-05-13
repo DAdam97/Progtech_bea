@@ -4,7 +4,6 @@ import com.company.Stat;
 
 public abstract class Equipment extends Item {
     private Stat stat;
-    private EquipmentType type;
 
     public abstract EquipmentType getType();
     public Stat getStat(){
@@ -13,7 +12,7 @@ public abstract class Equipment extends Item {
 
     @Override
     public String toString() {
-        return stat.toString();
+        return getType() + " " + stat.toString();
     }
 
     public Equipment(Stat stat) {

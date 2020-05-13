@@ -8,6 +8,11 @@ public class TestWeapon extends Weapon {
     }
 
     @Override
+    public String getWeaponType() {
+        return WeaponType.Test.toString();
+    }
+
+    @Override
     public int getDamageModifierFromStat() {
         return getWeaponStat().getStrength();
     }

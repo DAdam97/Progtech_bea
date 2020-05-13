@@ -5,7 +5,7 @@ public class TrueDamageEnchantment implements Enchantment{
     public int getDmgEnchantment() { return 0; }
 
     @Override
-    public int getRngEnchantment() { return 0; }
+    public float getRngEnchantment() { return 1; }
 
     @Override
     public float getCritChanceEnchantment() { return 0f; }
@@ -15,4 +15,9 @@ public class TrueDamageEnchantment implements Enchantment{
 
     @Override
     public int getDefEnchantment() { return 0; }
+
+    @Override
+    public String gatEnchantment() {
+        return "True Damage";
+    }
 }

@@ -10,6 +10,11 @@ public class Bow extends Weapon {
     }
 
     @Override
+    public String getWeaponType() {
+        return WeaponType.Bow.toString();
+    }
+
+    @Override
     public int getDamageModifierFromStat() {
         return getWeaponStat().getDexterity();
     }

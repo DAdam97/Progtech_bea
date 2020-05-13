@@ -7,7 +7,6 @@ import com.company.Item.Weapon.Bow;
 import com.company.Item.Weapon.Enchantment.NeutralEnchantment;
 import com.company.Item.Weapon.Sword;
 import com.company.Item.Weapon.Weapon;
-import com.sun.jdi.BooleanType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -35,7 +34,7 @@ class CharacterTest {
         Character c1 = new Character(new Position(3,3));
         assertEquals(false, c0.attack(c1));
 
-        c1.getPosition().moveForwardInDirection(Direction.SOUTHWEST, 1);
+        c1.getPosition().moveForwardInDirection(Direction.SouthWest, 1);
         assertEquals(true, c0.attack(c1));
     }
 

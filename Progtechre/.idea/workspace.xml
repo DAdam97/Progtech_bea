@@ -2,10 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0b4717-4a2f-4625-8df9-d8860d0af380" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leirás" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/EquipmentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/ModiferFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Modifiers/ModifierType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/DoubleRangeEnchantment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/WeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/World.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Character.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Boots.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Boots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Chest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Chest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Equipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Equipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/EquipmentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/EquipmentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Gloves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Gloves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Helmet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Helmet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Pants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Equipment/Pants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/BareHand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/BareHand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Bow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Bow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Enchantment/Enchantment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Enchantment/Enchantment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Enchantment/NeutralEnchantment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Enchantment/NeutralEnchantment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Enchantment/TrueDamageEnchantment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Enchantment/TrueDamageEnchantment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/MagicStaff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/MagicStaff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/TestWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/TestWeapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Item/Weapon/Weapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progtechre/com/company/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Progtechre/com/company/CharacterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Progtechre/com/company/CharacterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Progtechre/com/company/Item/ItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Progtechre/com/company/Item/ItemTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/Progtechre/com/company/Item/Weapon/Enchantment/EnchantmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Progtechre/com/company/Item/Weapon/Enchantment/EnchantmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/Boots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Boots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/Chest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Chest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/Equipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Equipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/EquipmentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/EquipmentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/Gloves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Gloves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/Helmet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Helmet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Equipment/Pants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Equipment/Pants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/BareHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/BareHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Bow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/Enchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/Enchantment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/NeutralEnchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/NeutralEnchantment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/TrueDamageEnchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Enchantment/TrueDamageEnchantment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/MagicStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/MagicStaff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/TestWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/TestWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Item/Weapon/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Item/Weapon/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/company/CharacterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/CharacterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/Item/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/Item/ItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/Item/Weapon/Enchantment/EnchantmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/Item/Weapon/Enchantment/EnchantmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/company/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/PositionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +82,9 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Enum" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,7 +110,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProgtechGyak-master" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -79,8 +130,9 @@
       <recent name="com.company.Equipment.Modifiers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CharacterTest.testCharacterStat">
-    <configuration name="CharacterTest.testCharacterStat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Progtechre" />
       <extension name="coverage">
         <pattern>
@@ -88,10 +140,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.CharacterTest" />
-      <option name="METHOD_NAME" value="testCharacterStat" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,23 +160,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CharacterTest.testWeaponStatAfterEquipmentChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Progtechre" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.CharacterTest" />
-      <option name="METHOD_NAME" value="testWeaponStatAfterEquipmentChange" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnchantmentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnchantmentTest.testDoubleRangeEnchantment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Progtechre" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +170,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.company.Item.Weapon.Enchantment" />
       <option name="MAIN_CLASS_NAME" value="com.company.Item.Weapon.Enchantment.EnchantmentTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="testDoubleRangeEnchantment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +192,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ItemTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Progtechre" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Item.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company.Item" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Item.ItemTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CharacterTest.testCharacterStat" />
-        <item itemvalue="JUnit.EnchantmentTest.testTrueDamageEnchantment" />
-        <item itemvalue="JUnit.EnchantmentTest.test" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CharacterTest.testWeaponEquip" />
-        <item itemvalue="JUnit.CharacterTest.testWeaponStatAfterEquipmentChange" />
+        <item itemvalue="JUnit.ItemTest.test" />
+        <item itemvalue="JUnit.EnchantmentTest.testDoubleRangeEnchantment" />
+        <item itemvalue="JUnit.EnchantmentTest.testTrueDamageEnchantment" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +252,11 @@
       <workItem from="1588587199404" duration="13000" />
       <workItem from="1588587325609" duration="19227000" />
       <workItem from="1588674290193" duration="22341000" />
-      <workItem from="1588760543313" duration="10655000" />
+      <workItem from="1588760543313" duration="12667000" />
+      <workItem from="1588776124184" duration="636000" />
+      <workItem from="1588883484068" duration="797000" />
+      <workItem from="1589277548571" duration="18810000" />
+      <workItem from="1589360510174" duration="6012000" />
     </task>
     <servers />
   </component>
@@ -233,26 +285,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1350" y="182" key="#Updates/0.0.2560.1040@0.0.2560.1040" timestamp="1587391590428" />
-    <state x="170" y="155" width="2275" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588760900689">
+    <state x="170" y="155" width="2275" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1589295714874">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="170" y="155" width="2275" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588760900689" />
+    <state x="170" y="155" width="2275" height="847" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589295714874" />
     <state x="839" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588768950467">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="839" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588768950467" />
-    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1588766082598">
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1589290427192">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1588766082598" />
+    <state x="1593" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1589290427192" />
     <state x="1438" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587391596823">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1438" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1587391596823" />
-    <state x="755" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588585657370">
+    <state x="755" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589289351004">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="755" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588585657370" />
+    <state x="755" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589289351004" />
     <state x="1032" y="383" width="495" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588765741617">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -265,26 +317,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="92" y="92" width="2376" height="856" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588761113335" />
-    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1588682129064">
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1589277914140">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1588682129064" />
-    <state width="2519" height="203" key="GridCell.Tab.0.bottom" timestamp="1588770598686">
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1589277914140" />
+    <state width="2519" height="490" key="GridCell.Tab.0.bottom" timestamp="1589367307040">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="203" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1588770598686" />
-    <state width="2519" height="203" key="GridCell.Tab.0.center" timestamp="1588770598686">
+    <state width="2519" height="490" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1589367307040" />
+    <state width="2519" height="490" key="GridCell.Tab.0.center" timestamp="1589367307040">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="203" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1588770598686" />
-    <state width="2519" height="203" key="GridCell.Tab.0.left" timestamp="1588770598686">
+    <state width="2519" height="490" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1589367307040" />
+    <state width="2519" height="490" key="GridCell.Tab.0.left" timestamp="1589367307040">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="203" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1588770598686" />
-    <state width="2519" height="203" key="GridCell.Tab.0.right" timestamp="1588770598686">
+    <state width="2519" height="490" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1589367307040" />
+    <state width="2519" height="490" key="GridCell.Tab.0.right" timestamp="1589367307040">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2519" height="203" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1588770598686" />
+    <state width="2519" height="490" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1589367307040" />
     <state width="1236" height="243" key="GridCell.Tab.1.bottom" timestamp="1588088287031">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -305,10 +357,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1116" y="243" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1588701047287" />
-    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588674943400">
+    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589360507632">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1588674943400" />
+    <state x="1412" y="344" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1589360507632" />
     <state x="1240" y="417" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587737547658">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -321,13 +373,13 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="631" y="243" key="new project wizard/0.0.2560.1040@0.0.2560.1040" timestamp="1587759732739" />
-    <state x="1386" y="244" key="run.anything.popup" timestamp="1588761598287">
+    <state x="1386" y="244" key="run.anything.popup" timestamp="1589286700871">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1386" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1588761598287" />
-    <state x="1311" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1588765476323">
+    <state x="1386" y="244" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589286700871" />
+    <state x="1311" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1589365902209">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1311" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1588765476323" />
+    <state x="1311" y="230" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1589365902209" />
   </component>
 </project>

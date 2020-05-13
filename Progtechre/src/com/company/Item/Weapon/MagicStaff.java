@@ -10,6 +10,11 @@ public class MagicStaff extends Weapon {
     }
 
     @Override
+    public String getWeaponType() {
+        return WeaponType.MagicStaff.toString();
+    }
+
+    @Override
     public int getDamageModifierFromStat() {
         return getWeaponStat().getWisdom();
     }

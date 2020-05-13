@@ -3,7 +3,6 @@ package com.company;
 public class Position {
     private int x;
     private int y;
-
     private Direction facing;
 
     public int getX() { return x; }
@@ -19,7 +18,7 @@ public class Position {
     public void faceTo(Character character){
         double angle = calcAngle(this, character.getPosition());
 
-        if (337.5d < angle || angle <= 22.5 ) { this.facing = Direction.EAST; }
+        if (337.5d < angle || angle <= 22.5 ) { this.facing = Direction.East; }
         else {
             double tempAngle = 45.0d;
             double offsetAngle = 22.5d;
@@ -58,49 +57,49 @@ public class Position {
         return angle;
     }
 
-    void moveTo(Position newPosition){
+    public void moveTo(Position newPosition){
         this.x = newPosition.x;
         this.y = newPosition.y;
     }
 
-    void moveForwardInDirection(Direction direction, int steps){
+    public void moveForwardInDirection(Direction direction, int steps){
         this.facing = direction;
         switch (direction){
-            case NORTH:
+            case North:
                 step( 0, +steps );
                 break;
 
-            case NORTHEAST:
+            case NorthEast:
                 step( +steps, +steps );
                 break;
 
-            case EAST:
+            case East:
                 step( +steps, 0 );
                 break;
 
-            case SOUTHEAST:
+            case SouthEast:
                 step( +steps, -steps );
                 break;
 
-            case SOUTH:
+            case South:
                 step( 0, -steps );
                 break;
 
-            case SOUTHWEST:
+            case SouthWest:
                 step( -steps, -steps );
                 break;
 
-            case WEST:
+            case West:
                 step( -steps, 0 );
                 break;
 
-            case NORTHWEST:
+            case NorthWest:
                 step( -steps, +steps );
                 break;
         }
     }
 
-    void moveForward(int steps){
+    public void moveForward(int steps){
         moveForwardInDirection(this.facing, steps);
     }
 
@@ -126,7 +125,7 @@ public class Position {
     }
 
     public Position() {
-        this.facing = Direction.NORTH;
+        this.facing = Direction.North;
         this.x = 0;
         this.y = 0;
     }

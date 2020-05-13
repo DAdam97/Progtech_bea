@@ -7,8 +7,13 @@ public class BareHand extends Weapon {
     public int getItemValue() { return 0; }
 
     @Override
+    public String getWeaponType() {
+        return WeaponType.BareHand.toString();
+    }
+
+    @Override
     public int getDamageModifierFromStat() {
-        return 0;
+        return 10;
     }
 
     public BareHand() {

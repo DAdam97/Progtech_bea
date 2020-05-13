@@ -19,17 +19,18 @@ public abstract class Weapon extends Item {
     private Enchantment enchantment;
 
     public int getWeaponLevel() { return weaponLevel; }
-
     public int getWeaponDamage() { return weaponDamage + enchantment.getDmgEnchantment(); }
-    public int getWeaponRange() { return WeaponRange + enchantment.getRngEnchantment(); }
+    public int getWeaponRange() { return (int)(WeaponRange * enchantment.getRngEnchantment()); }
     public float getCriticalChance() { return criticalChance + enchantment.getCritChanceEnchantment(); }
     public float getCriticalDamage() { return criticalDamage + enchantment.getCritDamageEnchantment(); }
-
     public Stat getWeaponStat() { return weaponStat; }
+    public String getEnchantment(){ return enchantment.gatEnchantment(); }
+    public abstract String getWeaponType();
+
     public float getDamageScalar() { return 0.15f; }
 
     public void attack(Character enemy){
-        int damage = (int) (this.getWeaponDamage() + (int)(getDamageModifierFromStat() * getDamageScalar())
+        int damage = (this.getWeaponDamage() + (int)(getDamageModifierFromStat() * getDamageScalar())
                                                     /
                 (enemy.getStat().getDefense() * enchantment.getDefEnchantment() + 1));
 

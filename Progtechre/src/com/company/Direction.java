@@ -3,14 +3,14 @@ package com.company;
 import java.util.HashMap;
 
 public enum Direction {
-    EAST(0),
-    NORTHEAST(1),
-    NORTH(2),
-    NORTHWEST(3),
-    WEST(4),
-    SOUTHWEST(5),
-    SOUTH(6),
-    SOUTHEAST(7);
+    East(0),
+    NorthEast(1),
+    North(2),
+    NorthWest(3),
+    West(4),
+    SouthWest(5),
+    South(6),
+    SouthEast(7);
 
     private int value;
     private static HashMap map = new HashMap<>();

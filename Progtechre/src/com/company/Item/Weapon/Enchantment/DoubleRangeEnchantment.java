@@ -1,11 +1,11 @@
 package com.company.Item.Weapon.Enchantment;
 
-public class NeutralEnchantment implements Enchantment {
+public class DoubleRangeEnchantment implements Enchantment {
     @Override
     public int getDmgEnchantment() { return 0; }
 
     @Override
-    public float getRngEnchantment() { return 1f; }
+    public float getRngEnchantment() { return 2f; }
 
     @Override
     public float getCritChanceEnchantment() { return 0f; }
@@ -18,6 +18,6 @@ public class NeutralEnchantment implements Enchantment {
 
     @Override
     public String gatEnchantment() {
-        return "Neutral";
+        return "Double Weapon Range";
     }
 }

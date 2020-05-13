@@ -11,6 +11,11 @@ public class Sword extends Weapon {
     }
 
     @Override
+    public String getWeaponType() {
+        return WeaponType.Sword.toString();
+    }
+
+    @Override
     public int getDamageModifierFromStat() {
         return getWeaponStat().getStrength();
     }
